@@ -1,4 +1,4 @@
-# My-MD5-PASSWORD by Wojciech Jackowiak aka WoJack
+# :bulb: My-MD5-PASSWORD by Wojciech Jackowiak aka WoJack 
 
 ### Basic topic
 #### 1.	Wstęp.
@@ -8,7 +8,7 @@
   
 #### 2.	Generatory haseł – bezpieczeństwo
 * Generatory haseł, zyskują coraz bardziej swoją popularność, zakładając nowego email, system sam ocenia złożoność naszego hasła i w przypadku gdy hasło ma zbyt niską ocenę(składa się z prostego ciągu znaków typu Student123) po prostu nie przepuszcza.
-#### 3.	Sposób działania md5
+#### 3.	Sposób działania md5 :warning:
 
  Wejściem algorytmu jest komunikat M o praktycznie dowolnej długości, a wyjściem 128-bitowy skrót, czyli wyciąg tego komunikatu. Przetwarzanie komunikatu na skrót odbywa się w 4 krokach. Dane w każdym kroku przetwarza się w 512-bitowych blokach, podzielonych na 16 podbloków po 32 bity
        
@@ -42,7 +42,7 @@
 -	Planuję rozwinąć aplikację, aby wygenerowane hasło, wraz z wartością początkowa oraz hashem zapisywane było w folderze użytkownika.
 -	Rozszerzenie aplikacji o inne algorytmy np. RSA
 -	Przeniesienie aplikacji do web (w trakcie nauki asp.net mvc 5) 
-#### 7.	Zdjęcia poglądowe aplikacji
+#### 7.	Zdjęcia poglądowe aplikacji :underage:
 ![Home](https://user-images.githubusercontent.com/43810008/82828803-2b893100-9eb2-11ea-8a15-81661bfea9cc.JPG)
 ![Algorithm](https://user-images.githubusercontent.com/43810008/82828843-39d74d00-9eb2-11ea-903a-d7329ba1e2c4.JPG)
 ![About](https://user-images.githubusercontent.com/43810008/82828856-4196f180-9eb2-11ea-9dab-0887d3503281.JPG)
